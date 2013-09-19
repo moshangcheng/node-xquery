@@ -1,0 +1,22 @@
+{
+  "name": "node-xquery",
+  "version": "0.0.0",
+  "description": "A node binding for XQuery using Zorba",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moshangcheng/node-xquery.git"
+  },
+  "keywords": [
+    "xquery",
+    "zorba"
+  ],
+  "author": "moshangcheng@gmail.com",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/moshangcheng/node-xquery/issues"
+  }
+}
