@@ -16,7 +16,29 @@
             "link_settings": { "libraries": [""] }
           }
         ],
-        ["OS==\"win\"", { }]
+        [
+			"OS==\"win\"", 
+			{
+				"include_dirs": ["C:\\Program Files (x86)\\Zorba\\include"],
+				"configurations": {
+					"Debug": {
+						"msvs_settings": {
+							'VCCLCompilerTool': {
+							'RuntimeLibrary': '3'
+							},
+							"VCLinkerTool": {
+								"AdditionalLibraryDirectories": [
+									"C:\\Program Files (x86)\\Zorba\\lib"
+								]
+							}
+						}
+					}
+				},
+				"link_settings": {
+					"libraries": ["zorba2_simplestore.lib"]
+				}
+			}
+		]
       ]
     }
   ]
